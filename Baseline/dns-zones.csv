@@ -1,0 +1,6 @@
+"NotifyServers","SecondaryServers","AllowedDcForNsRecordsAutoCreation","DistinguishedName","IsAutoCreated","IsDsIntegrated","IsPaused","IsReadOnly","IsReverseLookupZone","IsShutdown","ZoneName","ZoneType","DirectoryPartitionName","DynamicUpdate","IgnorePolicies","IsSigned","IsWinsEnabled","Notify","ReplicationScope","SecureSecondaries","ZoneFile","PSComputerName"
+,,,"DC=_msdcs.lab.local,cn=MicrosoftDNS,DC=ForestDnsZones,DC=lab,DC=local","False","True","False","False","False","False","_msdcs.lab.local","Primary","ForestDnsZones.lab.local","Secure","False","False","False","NotifyServers","Forest","NoTransfer",,
+,,,,"True","False","False","False","True","False","0.in-addr.arpa","Primary",,"None","True","False","False","Notify","None","TransferToZoneNameServer",,
+,,,,"True","False","False","False","True","False","127.in-addr.arpa","Primary",,"None","True","False","False","Notify","None","TransferToZoneNameServer",,
+,,,,"True","False","False","False","True","False","255.in-addr.arpa","Primary",,"None","True","False","False","Notify","None","TransferToZoneNameServer",,
+,,,"DC=lab.local,cn=MicrosoftDNS,DC=DomainDnsZones,DC=lab,DC=local","False","True","False","False","False","False","lab.local","Primary","DomainDnsZones.lab.local","Secure","False","False","False","NotifyServers","Domain","NoTransfer",,

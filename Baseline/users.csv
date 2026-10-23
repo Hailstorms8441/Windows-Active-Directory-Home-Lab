@@ -1,0 +1,4 @@
+"SamAccountName","DistinguishedName","Enabled"
+"Administrator","CN=Administrator,CN=Users,DC=lab,DC=local","True"
+"Guest","CN=Guest,CN=Users,DC=lab,DC=local","False"
+"krbtgt","CN=krbtgt,CN=Users,DC=lab,DC=local","False"
