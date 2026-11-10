@@ -1,0 +1,7 @@
+"SamAccountName","DistinguishedName","Enabled"
+"Administrator","CN=Administrator,CN=Users,DC=lab,DC=local","True"
+"Guest","CN=Guest,CN=Users,DC=lab,DC=local","False"
+"krbtgt","CN=krbtgt,CN=Users,DC=lab,DC=local","False"
+"alice","CN=Alice Smith,OU=Users,OU=Lab,DC=lab,DC=local","True"
+"bob","CN=Bob Smith,OU=Users,OU=Lab,DC=lab,DC=local","True"
+"svc-backup","CN=svc backup,OU=Users,OU=Lab,DC=lab,DC=local","True"

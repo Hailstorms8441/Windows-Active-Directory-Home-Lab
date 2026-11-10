@@ -1,0 +1,3 @@
+"Name","DistinguishedName"
+"DC01","CN=DC01,OU=Domain Controllers,DC=lab,DC=local"
+"WINDOWS-CLIENT1","CN=WINDOWS-CLIENT1,OU=Workstations,OU=Computers,OU=Lab,DC=lab,DC=local"

@@ -30,8 +30,6 @@ lab.local
 |    |   | - Security
 |    |   |   |- GG-IT-ADMINS
 |    |   |   |- GG-Staff
-|    |   |   |- GG-VPN-Users
 |    |   |
 |    |   | - Resource Access
 |    |   |   |- DL-Share-Finance-RW
-|    |   |   |- DL-Share-Finance-R
