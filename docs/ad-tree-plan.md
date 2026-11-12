@@ -8,28 +8,14 @@ lab.local
 |    | - Users
 |    |   | - Admins
 |    |   |   |- adm-jsmith
-|    |   | - IT
-|    |   |   |- jsmith
 |    |   |
-|    |   | - Staff
+|    |   | - General
 |    |   |   |- alice
 |    |   |   |- Bob
-|    |   |   
-|    |   | - Service Accounts
-|    |   |   |- svc-backup
 |    |
 |    | - Computers
 |    |   | - Workstations
-|    |   |   |- CLIENT01
-|    |   |   |- CLIENT02
+|    |   |   |- WORKSTATION1
 |    |   |
-|    |   | - Servers
-|    |   |   |- FILE01
-|    |   |   |- WEB01
 |    | - Groups
-|    |   | - Security
-|    |   |   |- GG-IT-ADMINS
-|    |   |   |- GG-Staff
-|    |   |
-|    |   | - Resource Access
-|    |   |   |- DL-Share-Finance-RW
+|    |   | - GG-Staff

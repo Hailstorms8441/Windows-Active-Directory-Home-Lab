@@ -1,0 +1,8 @@
+"Name","DistinguishedName"
+"Domain Controllers","OU=Domain Controllers,DC=lab,DC=local"
+"Lab","OU=Lab,DC=lab,DC=local"
+"Users","OU=Users,OU=Lab,DC=lab,DC=local"
+"Computers","OU=Computers,OU=Lab,DC=lab,DC=local"
+"Groups","OU=Groups,OU=Lab,DC=lab,DC=local"
+"Workstations","OU=Workstations,OU=Computers,OU=Lab,DC=lab,DC=local"
+"Servers","OU=Servers,OU=Computers,OU=Lab,DC=lab,DC=local"
