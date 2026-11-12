@@ -1,18 +1,59 @@
 # Windows Active Directory Home Lab
 
-This is a working progress repo for my Windows Active Directory Home Lab. Currently I have a Windows server 2025 and a Windows 11 pro vm setup inside of VMware. The Windows Server has a Domain Controler that is used by the client vm. The tree for the Active Directory config is shown in docs as well as the information about the network. I have it setup so that the vms communicate through vmware's vmnet interface. You can find my user and group configs within the exported configs folder. These were scraped using the ExportConfigs.ps1 script within scripts. 
+A single-domain Active Directory lab built in VMware workstation. I'm using it to practice OU design, Group Policy, and permissions with the AGDLP model. This is a work in progress.
 
-## Skills Learned
+## Active Directory Layout
+```
+lab.local
+|
+|- Domain Controllers
+|    |- DC01
+|
+|- Lab
+|    |
+|    | - Users
+|    |   | - Admins
+|    |   |   |- adm-jsmith
+|    |   |
+|    |   | - General
+|    |   |   |- alice
+|    |   |   |- Bob
+|    |
+|    | - Computers
+|    |   | - Workstations
+|    |   |   |- WORKSTATION1
+|    |   |
+|    | - Groups
+|    |   | - GG-Admins
+```
+## Whats Configured
+- OU Structure with Users, Computers, and Groups
+- GPOs: Workstation Baseline (inactivity lock), user wallpaper, local admin group
+- Client joined to domain and tested with domain logins
+
+## Repo Contents
+
+- [`docs/`](docs/): AD tree and network information
+- [`scripts/ExportConfigs.ps1`](scripts/): exports users, groups, and OUs
+- [`exported-configs/`](exported-configs/): output of the export script
+- [`screenshots/`](screenshots/): AD Users and Computers, GPOs, and client login screenshots
+
+## Problems I hit and fixed
+
+- **Couldn't join the domain:** the client was on Windows 11 Home. Upgraded to Pro.
+- **VMs froze in VirtualBox** after a system update. Moved the lab to VMware.
+
+## Things to Add:
+
+- DHCP server
+- Filesharing services
+- Script that adds users based on an input csv
+- Another client VM to work with multiple workstations
+- Better documentation on this page
+
+## Skills Practiced:
 
 - Windows Administration
 - Active Directory
-- Networking Across VMs
+- Virtual Networking (VMWare NAT, static IPs, DNS)
 - Scripting with powershell (Work in progress)
-
-## Things I plan to add in the future:
-
-- DCHP server
-- Filesharing services
-- Script that adds users based on an inputed csv
-- Another client VM to work with multiple workstations
-- Better documentation on this page
