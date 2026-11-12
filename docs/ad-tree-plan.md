@@ -18,4 +18,4 @@ lab.local
 |    |   |   |- WORKSTATION1
 |    |   |
 |    | - Groups
-|    |   | - GG-Staff
+|    |   | - GG-Admins
