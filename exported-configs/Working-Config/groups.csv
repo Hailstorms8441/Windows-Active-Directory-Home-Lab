@@ -50,6 +50,4 @@
 "External Trust Accounts","Global","CN=External Trust Accounts,CN=Users,DC=lab,DC=local"
 "DnsAdmins","DomainLocal","CN=DnsAdmins,CN=Users,DC=lab,DC=local"
 "DnsUpdateProxy","Global","CN=DnsUpdateProxy,CN=Users,DC=lab,DC=local"
-"GG-Staff","Global","CN=GG-Staff,OU=Groups,OU=Lab,DC=lab,DC=local"
 "GG-Admins","Global","CN=GG-Admins,OU=Groups,OU=Lab,DC=lab,DC=local"
-"DL-Share-Finacnce-RW","DomainLocal","CN=DL-Share-Finacnce-RW,OU=Groups,OU=Lab,DC=lab,DC=local"
